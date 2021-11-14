@@ -50,7 +50,7 @@ card_background = canvas.create_image(400, 263, image=card_front_img)
 card_title = canvas.create_text(400, 150, text="", font=("Ariel", 40, "italic"))
 card_word = canvas.create_text(400, 263, text="", font=("Ariel", 60, "bold"))
 canvas.config(bg=BACKGROUND_COLOR)
-canvas.grid(column = 0, row =0, columnspan=2)
+canvas.grid(column=0, row=0, columnspan=2)
 
 cross_image = PhotoImage(file="./images/wrong.png")
 unknown_button = Button(image = cross_image, highlightthickness=0, command=next_card)
